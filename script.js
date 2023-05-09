@@ -4,13 +4,20 @@
  * Declare a variable called myFavoriteSong on one line and console.log the value
  * Then, using your Literals, console.log "my favorite song is..." with the song's value
  */
-
+const myFavoriteSong = "One Man Band"
+console.log(`my favorite song is ${myFavoriteSong}`)
 /*
  * Prompt 2:
  *
  * Declare 3 variables using each of let, const, and var, then console.log each of them
  */
+let favoriteFood = 'pizza'
+const name = 'chris'
+var favoriteGenreOfMusic = "country music"
 
+console.log(favoriteFood)
+console.log(name)
+console.log(favoriteGenreOfMusic)
 /*
  * Prompt 3:
  *
@@ -21,6 +28,13 @@
  *   - divide your variable by 7
  *   - calculate the remainder of dividing your variable by 2
  */
+const age = 36
+console.log(age + 1)
+console.log(age - 1)
+console.log(age * 3)
+console.log(age / 7)
+console.log(age % 2)
+
 
 /*
  * Prompt 4:
@@ -33,7 +47,10 @@
  * and lastName variables.
  * Run a console.log that says 'hello my name is..." with your fullName. 
  */
-
+const firstName = 'chris'
+const lastName = 'morales'
+const fullName = `${firstName} ${lastName}`
+console.log(`hello my name is ${fullName}`)
 
 /* Arrays */
 
@@ -54,6 +71,10 @@ let array3 = [
   ['Marty Feldman', ['Marty Marion']],
   ['Marty Stuart', ['Marty Janetty', ['Marty McFly'], 'Marty Robbins']]
 ];
+console.log(array1[2])
+console.log(array2[1][1])
+console.log(array3[1][1][1][0])
+
 
 /*
  * Prompt 2:
